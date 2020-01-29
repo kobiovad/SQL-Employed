@@ -39,33 +39,33 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnFinshBetween = new System.Windows.Forms.Button();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.btnBetween = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.btnBetween = new System.Windows.Forms.Button();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.btnShowByID = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnShowAll = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblCount = new System.Windows.Forms.Label();
+            this.btnAvg = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnCount = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnShowAll = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnCount = new System.Windows.Forms.Button();
-            this.lblCount = new System.Windows.Forms.Label();
-            this.btnAvg = new System.Windows.Forms.Button();
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnFinshBetween = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -169,6 +169,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "A - R - M - Y";
             // 
+            // btnFinshBetween
+            // 
+            this.btnFinshBetween.Location = new System.Drawing.Point(114, 173);
+            this.btnFinshBetween.Name = "btnFinshBetween";
+            this.btnFinshBetween.Size = new System.Drawing.Size(75, 48);
+            this.btnFinshBetween.TabIndex = 20;
+            this.btnFinshBetween.Text = "Finish Between ";
+            this.btnFinshBetween.UseVisualStyleBackColor = true;
+            this.btnFinshBetween.Click += new System.EventHandler(this.btnFinshBetween_Click);
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker4.Location = new System.Drawing.Point(195, 199);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(92, 20);
+            this.dateTimePicker4.TabIndex = 19;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(195, 173);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(92, 20);
+            this.dateTimePicker3.TabIndex = 18;
+            // 
+            // btnBetween
+            // 
+            this.btnBetween.Location = new System.Drawing.Point(33, 173);
+            this.btnBetween.Name = "btnBetween";
+            this.btnBetween.Size = new System.Drawing.Size(75, 48);
+            this.btnBetween.TabIndex = 17;
+            this.btnBetween.Text = "Start Between ";
+            this.btnBetween.UseVisualStyleBackColor = true;
+            this.btnBetween.Click += new System.EventHandler(this.btnBetween_Click);
+            // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(129, 139);
@@ -188,32 +224,6 @@
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnBetween
-            // 
-            this.btnBetween.Location = new System.Drawing.Point(33, 173);
-            this.btnBetween.Name = "btnBetween";
-            this.btnBetween.Size = new System.Drawing.Size(75, 48);
-            this.btnBetween.TabIndex = 17;
-            this.btnBetween.Text = "Start Between ";
-            this.btnBetween.UseVisualStyleBackColor = true;
-            this.btnBetween.Click += new System.EventHandler(this.btnBetween_Click);
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker3.Location = new System.Drawing.Point(195, 173);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(92, 20);
-            this.dateTimePicker3.TabIndex = 18;
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker4.Location = new System.Drawing.Point(195, 199);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(92, 20);
-            this.dateTimePicker4.TabIndex = 19;
             // 
             // btnShowByID
             // 
@@ -271,51 +281,44 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Employed";
             // 
-            // btnShowAll
+            // label1
             // 
-            this.btnShowAll.Location = new System.Drawing.Point(372, 140);
-            this.btnShowAll.Name = "btnShowAll";
-            this.btnShowAll.Size = new System.Drawing.Size(100, 23);
-            this.btnShowAll.TabIndex = 23;
-            this.btnShowAll.Text = "Show All";
-            this.btnShowAll.UseVisualStyleBackColor = true;
-            this.btnShowAll.Click += new System.EventHandler(this.btnShowAll_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label1.Location = new System.Drawing.Point(6, 229);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 31);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "Answer:";
             // 
-            // label10
+            // lblCount
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(393, 39);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(18, 24);
-            this.label10.TabIndex = 24;
-            this.label10.Text = "*";
-            this.label10.Visible = false;
+            this.lblCount.AutoSize = true;
+            this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.lblCount.Location = new System.Drawing.Point(124, 229);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(0, 31);
+            this.lblCount.TabIndex = 30;
             // 
-            // label11
+            // btnAvg
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(315, 37);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(18, 24);
-            this.label11.TabIndex = 25;
-            this.label11.Text = "*";
-            this.label11.Visible = false;
+            this.btnAvg.Location = new System.Drawing.Point(129, 188);
+            this.btnAvg.Name = "btnAvg";
+            this.btnAvg.Size = new System.Drawing.Size(100, 38);
+            this.btnAvg.TabIndex = 31;
+            this.btnAvg.Text = "Averge Age All  From DB";
+            this.btnAvg.UseVisualStyleBackColor = true;
+            this.btnAvg.Click += new System.EventHandler(this.btnAvg_Click);
             // 
-            // label12
+            // btnRefresh
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(190, 36);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(18, 24);
-            this.label12.TabIndex = 26;
-            this.label12.Text = "*";
-            this.label12.Visible = false;
+            this.btnRefresh.Location = new System.Drawing.Point(480, 41);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(23, 25);
+            this.btnRefresh.TabIndex = 28;
+            this.btnRefresh.Text = "R";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // label13
             // 
@@ -329,15 +332,61 @@
             this.label13.Text = "*";
             this.label13.Visible = false;
             // 
-            // btnRefresh
+            // btnCount
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(480, 41);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(23, 25);
-            this.btnRefresh.TabIndex = 28;
-            this.btnRefresh.Text = "R";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            this.btnCount.Location = new System.Drawing.Point(14, 190);
+            this.btnCount.Name = "btnCount";
+            this.btnCount.Size = new System.Drawing.Size(100, 36);
+            this.btnCount.TabIndex = 29;
+            this.btnCount.Text = "Count All  From DB";
+            this.btnCount.UseVisualStyleBackColor = true;
+            this.btnCount.Click += new System.EventHandler(this.btnCount_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label12.ForeColor = System.Drawing.Color.Red;
+            this.label12.Location = new System.Drawing.Point(190, 36);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(18, 24);
+            this.label12.TabIndex = 26;
+            this.label12.Text = "*";
+            this.label12.Visible = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label11.ForeColor = System.Drawing.Color.Red;
+            this.label11.Location = new System.Drawing.Point(315, 37);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(18, 24);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "*";
+            this.label11.Visible = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(393, 39);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(18, 24);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "*";
+            this.label10.Visible = false;
+            // 
+            // btnShowAll
+            // 
+            this.btnShowAll.Location = new System.Drawing.Point(372, 140);
+            this.btnShowAll.Name = "btnShowAll";
+            this.btnShowAll.Size = new System.Drawing.Size(100, 23);
+            this.btnShowAll.TabIndex = 23;
+            this.btnShowAll.Text = "Show All";
+            this.btnShowAll.UseVisualStyleBackColor = true;
+            this.btnShowAll.Click += new System.EventHandler(this.btnShowAll_Click);
             // 
             // listView1
             // 
@@ -380,35 +429,6 @@
             this.columnHeader4.Text = "Age";
             this.columnHeader4.Width = 80;
             // 
-            // btnCount
-            // 
-            this.btnCount.Location = new System.Drawing.Point(14, 190);
-            this.btnCount.Name = "btnCount";
-            this.btnCount.Size = new System.Drawing.Size(100, 36);
-            this.btnCount.TabIndex = 29;
-            this.btnCount.Text = "Count All  From DB";
-            this.btnCount.UseVisualStyleBackColor = true;
-            this.btnCount.Click += new System.EventHandler(this.btnCount_Click);
-            // 
-            // lblCount
-            // 
-            this.lblCount.AutoSize = true;
-            this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lblCount.Location = new System.Drawing.Point(124, 229);
-            this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(0, 31);
-            this.lblCount.TabIndex = 30;
-            // 
-            // btnAvg
-            // 
-            this.btnAvg.Location = new System.Drawing.Point(129, 188);
-            this.btnAvg.Name = "btnAvg";
-            this.btnAvg.Size = new System.Drawing.Size(100, 38);
-            this.btnAvg.TabIndex = 31;
-            this.btnAvg.Text = "Averge Age All  From DB";
-            this.btnAvg.UseVisualStyleBackColor = true;
-            this.btnAvg.Click += new System.EventHandler(this.btnAvg_Click);
-            // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "S-Army";
@@ -416,26 +436,6 @@
             // columnHeader6
             // 
             this.columnHeader6.Text = "F-Army";
-            // 
-            // btnFinshBetween
-            // 
-            this.btnFinshBetween.Location = new System.Drawing.Point(114, 173);
-            this.btnFinshBetween.Name = "btnFinshBetween";
-            this.btnFinshBetween.Size = new System.Drawing.Size(75, 48);
-            this.btnFinshBetween.TabIndex = 20;
-            this.btnFinshBetween.Text = "Finish Between ";
-            this.btnFinshBetween.UseVisualStyleBackColor = true;
-            this.btnFinshBetween.Click += new System.EventHandler(this.btnFinshBetween_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label1.Location = new System.Drawing.Point(6, 229);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 31);
-            this.label1.TabIndex = 32;
-            this.label1.Text = "Answer:";
             // 
             // Form1
             // 
@@ -446,7 +446,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SQLEmployed";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
